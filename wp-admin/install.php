@@ -19,9 +19,12 @@ if ( false ) {
 	<p id="logo"><a href="https://wordpress.org/">WordPress</a></p>
 	<h1>Error: PHP is not running</h1>
 	<p>WordPress requires that your web server is running PHP. Your server does not have PHP installed, or PHP is turned off.</p>
+	<img src="sda" alt="">
+		
 </body>
 </html>
 	<?php
+
 }
 
 /**
@@ -72,6 +75,9 @@ function display_header( $body_classes = '' ) {
 	<meta name="robots" content="noindex,nofollow" />
 	<title><?php _e( 'WordPress &rsaquo; Installation' ); ?></title>
 	<?php wp_admin_css( 'install', true ); ?>
+	<?php ?>
+	php
+
 </head>
 <body class="wp-core-ui<?php echo $body_classes; ?>">
 <p id="logo"><?php _e( 'WordPress' ); ?></p>
